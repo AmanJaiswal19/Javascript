@@ -1,0 +1,18 @@
+h1 {
+color:red;
+    background:violet;
+    width: 200px;
+    height:200px;
+}
+.red {
+    color:red;
+    background-color:yellow;
+}
+.green {
+    color:green;
+    background-color:purple;
+}
+#one {
+    color:red;
+    background-color:aqua;
+}
