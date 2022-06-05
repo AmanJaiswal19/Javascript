@@ -68,11 +68,13 @@
 
 // riverse loop?
 // let city2 = ['Nagpur', 'Pune', 'Mumbai', 'Delhi']
-// for (let i = 3; i >= 0; i--) {
+// for (let i = city2.length - 1; i >= 0; i--) {
 //     console.log(city2[i])
 //     console.log(i)
 // }
 //---------------------------------------------------------------------//
+
+// loop in object //
 
 // let details = {
 //     name: 'Aman',
@@ -98,22 +100,16 @@
 
 // Add
 // details.lang = 'Hindi'
-// console.log(details)
-
 // details['age'] = 19
 // console.log(details)
 
 // Update
 // details.rollNo = 23
-// console.log(details)
-
 // details['name'] = 'saskhi'
 // console.log(details)
 
 // Delete
 // delete details.city
-// console.log(details)
-
 // delete details['rollNo']
 // console.log(details)
 
@@ -200,22 +196,140 @@
 
 //-----------------------------------------------------------//
 
+// Quetion: - We have 11 no.in input like
+// input: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110
+// we need in output : 110, 10, 100, 20, 90, 30, 80, 40, 70, 50, 60
+
+
+// let arrInput = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
+
+// let arrOut = []
+
+// let kk = (Math.ceil(arrInput.length / 2))
+// console.log(kk)
+
+// let i = 0;
+// while (i < kk) {
+//     arrOut.push(arrInput.pop());
+//     arrOut.push(arrInput[i]);
+//     i++;
+// }
+// console.log(arrOut)
+
+// if (kk % 2 == 0) {
+//     arrOut.pop();
+//     console.log(arrOut);
+// } else {
+//     console.log(arrOut);
+// }
+// [110, 10, 100, 20, 90, 30, 80,  40, 70, 50, 60]
+
+//-------------------------------------------------------------//
+
+// 1.Reversal of String. 
+
+// let colours = ['Red', 'Blue', 'Green', 'Pink', 'Yellow']
+// for (let aa = colours.length - 1; aa >= 0; aa--) {
+//     console.log(colours[aa])
+// }
+
+//----------------------------------------------------------//
+
+// 2.Reverse each word of a string
+
+// let name = 'Rajkamal'
+// for (let bb = name.length - 1; bb >= 0; bb--) {
+//     console.log(name[bb])
+// }
+
+//-------------------------------------------------------------//
+
+// 3.String palindrome   ***Not
+
+// function palindrome(str) {
+//     var len = str.length;
+//     var mid = Math.floor(len/2);
+//     for ( var i = 0; i < mid; i++ ) {
+//       if (str[i] !== str[len - 1 - i])
+
+// let car = 'Audi'
+// let len = car.length
+// console.log(len)
+
+// let as = Math.floor(len / 2)
+// console.log(as)
+
+// for (let i = 0; i < as; i++) {
+//     if (car[i] !== car[len - 1 - i])
+//         console.log(car[i])
+// }
+
+// let names = 'rajkamal'
+// let nm = names.length
+// console.log(nm)
+
+// let aj = Math.floor(nm / 2)
+// console.log(aj)
+
+//---------------------------------------------------//
+
+// 4.Duplicate elements in an array
+
+// let arr = [11, 22, 33, 11, 44, 55, 22, 66, 33]
+// let ss = arr.filter(function (el, index) {
+//     return arr.indexOf(el) == index
+// })
+// console.log(ss)
+
+// let names = ['Ram', 'Shyam', 'Ram', 'Ajay', 'Vijay', 'Shyam']
+// let nm = names.filter(function (el, index) {
+//     return names.indexOf(el) == index
+// })
+// console.log(nm)
+
+//------------------------------------------------------//
+
+// 5. Second largest element in an array
+
+// let names = ['Aman', 'Sakshi', 'Shikha', 'Ashish']
 
 
 
+// 6. Anagram program
+// 7. Find missing number in an array
+// 8. Find the first repeated character in the given string
+// 9. Easy Star pattern programs
+// 10. Reverse string with preserving position of spaces
+// 11. Segregate binary 0 and 1 array
+// 12. Matrix multiplication in java
+// 13. Swap two numbers with out using third variable
+// 14. Armstrong number
+// 15. Factorial program
+// 16. Palindrome number
+// 17. Fibonacci series
+// 18. Prime numbers
 
 
+// Que in mindtrees
+// 1. framework of cypress
+// 2. what is the use of this or why we use 
+// 3. how you handle excection in cypress
+// 4. print riverse String
+// 5. how you join "wel come"
 
+let s = 'welcome to the mindtree'
+for(let i=s.length-1;i>=0;i--){
+    console.log(s)
+}
 
+let s = "well come to meindtree"
+for(let i=s.length-1;i>=0;i--){
+  console.log(s)
+}
 
+let s ="well come"
 
-
-
-
-
-
-
-
+s.bind
 
 
 

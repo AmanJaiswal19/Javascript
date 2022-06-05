@@ -47,7 +47,7 @@
 // console.log(d)
 
 
-// toLowerCase() // 
+// toUpperCase() // 
 
 // let city2 = "nagpur"
 // let s = city2.toUpperCase()
