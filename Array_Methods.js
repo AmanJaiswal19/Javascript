@@ -47,7 +47,7 @@
 
 // let names = ["aman", "sakshi", "poorva", "amol", "ram"]
 // let cc = names.filter(function (el, index, arr) {
-//     return el.length == 4
+//     return el.length == 6
 // })
 // console.log(cc)
 
@@ -116,11 +116,10 @@
 // let zz = numbers.findIndex(function (el, index, arr) {
 //     return el < 50
 // })
-//console.log(zz)
+// console.log(zz)
 
 
 // every.......
-
 
 // let numbers = [22, 33, 44, 55, 66, 77, 22, 33, 44, 55]
 // let aaa = numbers.every(function (el, inde, arr) {
@@ -135,8 +134,8 @@
 // console.log(aaa)
 
 
-//some.......
-//boolean(eighter true or false)
+// some.......
+// boolean(eighter true or false)
 
 // let numbers = [22, 33, 44, 55, 66, 77, 22, 33, 44, 55]
 // let xx = numbers.some(function (el, index, arr) {
@@ -151,30 +150,25 @@
 // })
 // console.log(xxx)
 
-
-//flat.......
+// flat.......
 
 // let n = [[1, 2, 3], [2, 3, 4,], [3, 4, 5]]
 // let s = n.flat()
 // console.log(s)
 
-
 // let abc = [["aman", "shyam"], ["kisan", "amol"], ["ram", "raj"]]
 // let ddd = abc.flat()
 // console.log(ddd)
 
-
-//sort.......
+// sort.......
 
 // let city = ["abhisha", "poorva", "bimal", "ram"]
 // city.sort()
 // console.log(city)
 
-
 // let city1 = ["abhisha", "poorva", "bimal", "ram"]
 // city1.sort().reverse()
 // console.log(city1)
-
 
 // join.......
 
@@ -184,14 +178,12 @@
 
 
 // indexOf, push, pop, shift, unshift, includes, concat, reverse, foreach,
-// filter, mao, reduce, every, some, find, findindex, flat, join, sort
-
-
+// filter, map, reduce, every, some, find, findindex, flat, join, sort
 
 // slice.......
-//             0   1   2   3   4   5   6   7
+//                0   1   2   3   4   5   6   7
 // let numbers = [11, 22, 33, 44, 55, 66, 77, 88]
-//            -8   -7  -6  -5  -4  -3  -2  -1
+//               -8   -7  -6  -5  -4  -3  -2  -1
 // let h = numbers.slice(3)
 // console.log(h)
 
@@ -234,8 +226,17 @@
 
 
 // pop()
+// Remove the element from last
+// Returns the element wich is removed
+
 // push()
+// Adds new element to the first
+// Returns the element wich is add
+
 // shift()
+// Removes the first element from array
+// Returns the element wich is remove
+
 // unshift()
 
 // indexOf()
